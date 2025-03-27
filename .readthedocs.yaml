@@ -12,10 +12,10 @@ build:
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
-   configuration: biobb_radiospineomics/docs/source/conf.py
+   configuration: biobb_morph/docs/source/conf.py
 
 python:
   install:
-    - requirements: biobb_radiospineomics/docs/requirements.txt
+    - requirements: biobb_morph/docs/requirements.txt
     - method: pip
       path: .
